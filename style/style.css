@@ -236,8 +236,60 @@ a:hover {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 170vh;
+  height: 350vh;
 }
+
+.my_font_arial_and_firstdog_text_arial,
+.my_font_arial_and_firstdog_text_firstdog {
+  font-size: 2vh;
+  font-family: "ArialRegular";
+  text-align: center;
+}
+
+.my_font_arial_and_firstdog_text_arial {
+  grid-column: 1 / 2;
+}
+
+.my_font_arial_and_firstdog_text_firstdog {
+  grid-column: 3 / 4;
+}
+
+.my_font_arial_and_firstdog {
+  display: grid;
+  margin-top: 4vh;
+  grid-template-columns: 100%;
+}
+
+.arial_why_font,
+.firstdog_why_font {
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.my_font_t_arial_and_firstdog {
+  display: grid;
+  margin-top: 4vh;
+  grid-template-columns: 45% 10% 45%;
+}
+
+.arial_t_why_font {
+  grid-column: 1 / 2;
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+  margin-top: 3vh;
+}
+
+.firstdog_t_why_font {
+  grid-column: 3 / 4;
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+  margin-top: 3vh;
+}
+
+
 
 .text_firstdog {
   margin-top: 4vh;
@@ -248,7 +300,7 @@ a:hover {
 
 .my_font1 {
   display: grid;
-  margin-top: 4vh;
+  margin-top: 10vh;
   grid-template-columns: 22% 4% 22% 4% 22% 4% 22%;
 }
 
@@ -373,8 +425,8 @@ a:hover {
 .four_letter:hover img.four_letter_opacity,
 .two_ahah_letter:hover img.two_ahah_letter_opacity,
 .two_ahaha_letter:hover img.two_ahah_letter_opacity{
- display: block;
- z-index: 1;
+display: block;
+z-index: 1;
 } */
 
 .one_letter:hover,
@@ -383,7 +435,7 @@ a:hover {
 .four_letter:hover,
 .two_ahah_letter:hover,
 .two_ahaha_letter:hover {
- display: none;
+  display: none;
 }
 
 
@@ -396,7 +448,7 @@ a:hover {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 100vh;
+  height: 130vh;
 }
 
 /* _______________ */
@@ -429,6 +481,107 @@ a:hover {
   height: 100vh;
 }
 
+.idea_text {
+  display: grid;
+  margin-top: 4vh;
+  grid-template-columns: 45% 10% 45%;
+}
+
+.text2  {
+  margin-top: 4vh;
+  font-size: 3vh;
+  font-family: "ArialRegular";
+  grid-column: 3 / 4;
+}
+
+.cveta_gamma {
+  display: grid;
+  margin-top: 3vh;
+  grid-template-columns: 15% 2% 15% 2% 15% 2% 15% 2% 15% 2% 15%;
+}
+
+.one_cveta_gamma,
+.two_cveta_gamma,
+.three_cveta_gamma,
+.four_cveta_gamma,
+.five_cveta_gamma,
+.six_cveta_gamma {
+  height: 30vh;
+  width: 19vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.one_cveta_gamma {
+  grid-column: 1 / 2;
+  background: #F5EAD8;
+}
+
+.two_cveta_gamma {
+  grid-column: 3 / 4;
+  background: #F7B6A9;
+}
+
+.three_cveta_gamma {
+  grid-column: 5 / 6;
+  background: #F7C05B;
+}
+
+.four_cveta_gamma {
+  grid-column: 7 / 8;
+  background: #789BB9;
+}
+
+.five_cveta_gamma {
+  grid-column: 9 / 10;
+  background: #EB5A21;
+}
+
+.six_cveta_gamma {
+  grid-column: 11 / 12;
+  background: #000000;
+}
+
+
+
+.text_gamma {
+  display: grid;
+  margin-top: 4vh;
+  grid-template-columns: 15% 2% 15% 2% 15% 2% 15% 2% 15% 2% 15%;
+}
+
+.one_text_gamma,
+.two_text_gamma,
+.three_text_gamma,
+.four_text_gamma,
+.five_text_gamma,
+.six_text_gamma {
+  font-size: 2vh;
+  font-family: "ArialRegular";
+  text-align: center;
+}
+
+.two_text_gamma {
+  grid-column: 3 / 4;
+}
+
+.three_text_gamma {
+  grid-column: 5 / 6;
+}
+
+.four_text_gamma {
+  grid-column: 7 / 8;
+}
+
+.five_text_gamma {
+  grid-column: 9 / 10;
+}
+
+.six_text_gamma {
+  grid-column: 11 / 12;
+}
+
+
 /* _______________ */
 
 .twelve {
@@ -455,30 +608,30 @@ a:hover {
 .text_in_graphica_two,
 .text_in_graphica_three,
 .text_in_graphica_four {
-  font-size: 3vh;
+  font-size: 2vh;
   font-family: "ArialRegular";
-  text-align: left;
+  text-align: center;
 }
 
 .text_in_graphica_one {
-    grid-column: 1 / 2;
+  grid-column: 1 / 2;
 }
 
 .text_in_graphica_two {
-    grid-column: 3 / 4;
+  grid-column: 3 / 4;
 }
 
 .text_in_graphica_three {
-    grid-column: 5 / 6;
+  grid-column: 5 / 6;
 }
 
 .text_in_graphica_four {
-    grid-column: 7 / 8;
+  grid-column: 7 / 8;
 }
 
 .vector_in_graphica {
   display: grid;
-  margin-top: 4vh;
+  margin-top: 3vh;
   grid-template-columns: 22% 4% 22% 4% 22% 4% 22%;
 }
 
@@ -586,8 +739,35 @@ a:hover {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 100vh;
+  height: 150vh;
 }
+
+.photo_rabota {
+  display: grid;
+  margin-top: 4vh;
+  grid-template-columns: 30% 5% 30% 5% 30%;
+}
+
+.photo_rabota_one,
+.photo_rabota_two,
+.photo_rabota_three {
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.photo_rabota_one {
+  grid-column: 1 / 2;
+}
+
+.photo_rabota_two {
+  grid-column: 3 / 4;
+}
+
+.photo_rabota_three {
+  grid-column: 5 / 6;
+}
+
 
 /* = */
 
