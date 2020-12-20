@@ -1,0 +1,613 @@
+@import "reset.css";
+
+body, html {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-family: "ArialBold";
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  color: #EB5A21;
+}
+
+.all {
+  display: grid;
+  grid-template-columns: 20% 5% 70% 5%;
+}
+
+/* _______________ */
+
+.menu_grid {
+  position: fixed;
+  top: 3vh;
+  margin-left: 3vh;
+  display: inline-block;
+
+}
+
+.home {
+  display: flex;
+  font-size: 3vh;
+  font-family: "ArialBold";
+  text-transform: uppercase;
+}
+
+.e {
+  font-family: "Firstdog";
+  margin-top: 0.2vh;
+}
+
+/* _______________ */
+
+.menu {
+  text-align: left;
+  margin-top: 3vh;
+}
+
+/* _______________ */
+
+.one {
+  grid-column: 3 / 4;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+.start {
+  margin-top: 3vh;
+}
+
+
+.one_text {
+  font-size: 15vh;
+  text-transform: uppercase;
+  font-family: "ArialBold";
+  display: flex;
+}
+
+.e2 {
+  font-family: "Firstdog";
+  margin-top: 1.2vh;
+}
+
+.one_text2 {
+  font-size: 5vh;
+  margin-top: 2vh;
+  text-transform: uppercase;
+}
+
+/* _______________ */
+
+.two {
+  grid-column: 3 / 4;
+  position: relative;
+  /* overflow: hidden; */
+  width: 100%;
+  height: 100vh;
+}
+
+.first_zagolovok {
+  font-size: 5vh;
+  margin-top: 3vh;
+}
+
+.second_zagolovok {
+  font-size: 4vh;
+}
+
+.block {
+  margin-top: 10vh;
+}
+
+.text {
+  margin-top: 4vh;
+  font-size: 3vh;
+  font-family: "ArialRegular";
+}
+
+/* _______________ */
+
+.three {
+  grid-column: 3 / 4;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 150vh;
+}
+
+.logo_idea {
+  display: grid;
+  margin-top: 10vh;
+  grid-template-columns: 13.7% 10% 17.5% 10% 17.5% 10% 19.5%;
+}
+
+.logo_idea2 {
+  display: grid;
+  margin-top: 4vh;
+  grid-template-columns: 17.5% 6% 17.5% 10% 20.5% 8% 20.5%;
+}
+
+.logo_idea3 {
+  display: grid;
+  margin-top: 4vh;
+  grid-template-columns: 20.7% 3% 20.5% 7% 21.2% 7% 19.8%;
+}
+
+.one_logo {
+  grid-column: 1 / 2;
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.two_logo {
+  grid-column: 3 / 4;
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.three_logo {
+  grid-column: 5 / 6;
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.four_logo {
+  grid-column: 7 / 8;
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+
+
+/* _______________ */
+
+.four {
+  grid-column: 3 / 4;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 130vh;
+}
+
+.left_right_logo {
+  display: grid;
+  margin-top: 10vh;
+  grid-template-columns: 40% 10% 50%;
+}
+
+.left_logo {
+  grid-column: 1 / 2;
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.right_logo {
+  grid-column: 3 / 4;
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.all_logo {
+  grid-column: 1 / 4;
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+  margin-top: 4vh;
+}
+
+/* _______________ */
+
+.five {
+  grid-column: 3 / 4;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+/* _______________ */
+
+.six {
+  grid-column: 3 / 4;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+/* _______________ */
+
+.seven {
+  grid-column: 3 / 4;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 170vh;
+}
+
+.text_firstdog {
+  margin-top: 4vh;
+  font-size: 5vh;
+  text-transform: uppercase;
+  font-family: "Firstdog";
+}
+
+.my_font1 {
+  display: grid;
+  margin-top: 4vh;
+  grid-template-columns: 22% 4% 22% 4% 22% 4% 22%;
+}
+
+.my_font2 {
+  display: grid;
+  margin-top: 4vh;
+  grid-template-columns: 22% 0% 22% 8% 22% 4% 22%;
+  margin-top: -18%;
+}
+
+.my_font3 {
+  display: grid;
+  margin-top: 4vh;
+  grid-template-columns: 22% 4% 22% 4% 22% 4% 22%;
+  margin-top: -23%;
+}
+
+.one_letter,
+.two_letter,
+.three_letter,
+.four_letter {
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.two_ahah_letter {
+  position: relative;
+  max-height: 100%;
+  max-width: 109%;
+}
+
+.two_ahaha_letter {
+  position: relative;
+  max-height: 100%;
+  max-width: 117%;
+}
+
+.one_letter {
+  grid-column: 1 / 2;
+}
+
+.two_letter {
+  grid-column: 3 / 4;
+}
+
+.two_ahah_letter {
+  grid-column: 3 / 4;
+}
+
+.two_ahaha_letter {
+  grid-column: 3 / 4;
+}
+
+.three_letter {
+  grid-column: 5 / 6;
+}
+
+.four_letter {
+  grid-column: 7 / 8;
+}
+
+
+
+
+.one_letter_opacity,
+.two_letter_opacity,
+.three_letter_opacity,
+.four_letter_opacity {
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+  top: -100%;
+  z-index: -1;
+}
+
+.two_ahah_letter_opacity {
+  position: relative;
+  max-height: 100%;
+  max-width: 109%;
+  top: -100%;
+  z-index: -1;
+}
+
+.two_ahaha_letter_opacity {
+  position: relative;
+  max-height: 100%;
+  max-width: 117%;
+  top: -100%;
+  z-index: -1;
+}
+
+.one_letter_opacity {
+  grid-column: 1 / 2;
+}
+
+.two_letter_opacity {
+  grid-column: 3 / 4;
+}
+
+.two_ahah_letter_opacity {
+  grid-column: 3 / 4;
+}
+
+.two_ahaha_letter_opacity {
+  grid-column: 3 / 4;
+}
+
+.three_letter_opacity {
+  grid-column: 5 / 6;
+}
+
+.four_letter_opacity {
+  grid-column: 7 / 8;
+}
+
+
+/*
+.one_letter:hover img.one_letter_opacity,
+.two_letter:hover img.two_letter_opacity,
+.three_letter:hover img.three_letter_opacity,
+.four_letter:hover img.four_letter_opacity,
+.two_ahah_letter:hover img.two_ahah_letter_opacity,
+.two_ahaha_letter:hover img.two_ahah_letter_opacity{
+ display: block;
+ z-index: 1;
+} */
+
+.one_letter:hover,
+.two_letter:hover,
+.three_letter:hover,
+.four_letter:hover,
+.two_ahah_letter:hover,
+.two_ahaha_letter:hover {
+ display: none;
+}
+
+
+
+
+/* _______________ */
+
+.eight {
+  grid-column: 3 / 4;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+/* _______________ */
+
+.nine {
+  grid-column: 3 / 4;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+/* _______________ */
+
+.ten {
+  grid-column: 3 / 4;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+/* _______________ */
+
+.eleven {
+  grid-column: 3 / 4;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+/* _______________ */
+
+.twelve {
+  grid-column: 3 / 4;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 160vh;
+}
+
+.text_in_graphica {
+  display: grid;
+  margin-top: 4vh;
+  grid-template-columns: 22% 4% 22% 4% 22% 4% 22%;
+}
+
+.text_in_graphica2 {
+  display: grid;
+  margin-top: 10vh;
+  grid-template-columns: 22% 4% 22% 4% 22% 4% 22%;
+}
+
+.text_in_graphica_one,
+.text_in_graphica_two,
+.text_in_graphica_three,
+.text_in_graphica_four {
+  font-size: 3vh;
+  font-family: "ArialRegular";
+  text-align: left;
+}
+
+.text_in_graphica_one {
+    grid-column: 1 / 2;
+}
+
+.text_in_graphica_two {
+    grid-column: 3 / 4;
+}
+
+.text_in_graphica_three {
+    grid-column: 5 / 6;
+}
+
+.text_in_graphica_four {
+    grid-column: 7 / 8;
+}
+
+.vector_in_graphica {
+  display: grid;
+  margin-top: 4vh;
+  grid-template-columns: 22% 4% 22% 4% 22% 4% 22%;
+}
+
+.one_vector,
+.two_vector,
+.three_vector,
+.four_vector {
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.two_ahah_vector {
+  position: relative;
+  max-height: 100%;
+  max-width: 60%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.three_ahah_vector {
+  position: relative;
+  max-height: 100%;
+  max-width: 25%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.one_vector {
+  grid-column: 1 / 2;
+}
+
+.two_vector {
+  grid-column: 3 / 4;
+}
+
+.two_ahah_vector {
+  grid-column: 3 / 4;
+}
+
+.three_vector {
+  grid-column: 5 / 6;
+}
+
+.three_ahah_vector {
+  grid-column: 5 / 6;
+}
+
+.four_vector {
+  grid-column: 7 / 8;
+}
+
+.photo_in_graphica {
+  display: grid;
+  margin-top: 4vh;
+  grid-template-columns: 22% 4% 22% 4% 22% 4% 22%;
+}
+
+.one_photo,
+.two_photo,
+.three_photo,
+.four_photo {
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.one_photo {
+  grid-column: 1 / 2;
+}
+
+.two_photo {
+  grid-column: 3 / 4;
+}
+
+.three_photo {
+  grid-column: 5 / 6;
+}
+
+.four_photo {
+  grid-column: 7 / 8;
+}
+
+
+/* _______________ */
+
+.tfirty {
+  grid-column: 3 / 4;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+/* _______________ */
+
+.fourty {
+  grid-column: 3 / 4;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+/* = */
+
+@font-face {
+  font-family: "ArialBold";
+  src: url("../fonts/ArialBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "ArialRegular";
+  src: url("../fonts/ArialRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Firstdog";
+  src: url("../fonts/Firstdog.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
