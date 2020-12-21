@@ -120,13 +120,21 @@ a:hover {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 150vh;
+  height: 200vh;
 }
 
 .logo_idea {
   display: grid;
   margin-top: 10vh;
   grid-template-columns: 13.7% 10% 17.5% 10% 17.5% 10% 19.5%;
+}
+
+.idea_logo {
+  grid-column: 1 / 8;
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+  margin-bottom: 10vh;
 }
 
 .logo_idea2 {
@@ -724,12 +732,119 @@ z-index: 1;
 
 /* _______________ */
 
-.tfirty {
+.thirty {
   grid-column: 3 / 4;
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 100vh;
+  height: 430vh;
+}
+
+.inst {
+  display: grid;
+  margin-top: 3vh;
+  grid-template-columns: 30% 10% 30% 10% 20%;
+}
+
+.nositeli2 {
+  display: grid;
+  margin-top: 3vh;
+  grid-template-columns: 30% 5% 30% 5% 30%;
+}
+
+.nositeli3 {
+  display: grid;
+  margin-top: 3vh;
+  grid-template-columns: 40% 10% 40%;
+}
+
+.nositeli4 {
+  display: grid;
+  margin-top: 3vh;
+  grid-template-columns: 30% 3% 15% 3% 30% 3% 15%;
+}
+
+.inst1,
+.inst2,
+.kruzka,
+.futbolka1,
+.futbolka2,
+.futbolka3,
+.doc1,
+.doc2,
+.story1,
+.story2 {
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.inst2 {
+  grid-column: 3 / 4;
+}
+
+.inst_code,
+.qr1,
+.qr2  {
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.inst_code {
+  margin-top: 4vh;
+  grid-column: 5 / 6;
+  margin-top: auto;
+}
+
+.kruzka {
+  margin-top: 10vh;
+  grid-column: 1 / 6;
+}
+
+.futbolka1 {
+  margin-top: 10vh;
+  grid-column: 1 / 2;
+}
+
+.futbolka2 {
+  margin-top: 10vh;
+  grid-column: 3 / 4;
+}
+
+.futbolka3 {
+  margin-top: 10vh;
+  grid-column: 5 / 6;
+}
+
+.doc1 {
+  margin-top: 10vh;
+  grid-column: 1 / 2;
+}
+
+.doc2 {
+  margin-top: 10vh;
+  grid-column: 3 / 4;
+}
+
+.story1 {
+  margin-top: 10vh;
+  grid-column: 1 / 2;
+}
+
+.story2 {
+  margin-top: 10vh;
+  grid-column: 5 / 6;
+}
+
+.qr1 {
+  margin-top: auto;
+  grid-column: 3 / 4;
+}
+
+.qr2 {
+  margin-top: auto;
+  grid-column: 7 / 8;
 }
 
 /* _______________ */
@@ -739,7 +854,7 @@ z-index: 1;
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 150vh;
+  height: 280vh;
 }
 
 .photo_rabota {
