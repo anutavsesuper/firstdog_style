@@ -1,5 +1,29 @@
 @import "reset.css";
 
+
+/* = */
+
+@font-face {
+  font-family: "ArialBold";
+  src: url("../fonts/ArialBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "ArialRegular";
+  src: url("../fonts/ArialRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Firstdog";
+  src: url("../fonts/Firstdog.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
 body, html {
   overflow-x: hidden;
   width: 100%;
@@ -24,6 +48,11 @@ a:hover {
 
 /* _______________ */
 
+.start {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
 .menu_grid {
   position: fixed;
   top: 3vh;
@@ -42,6 +71,25 @@ a:hover {
 .e {
   font-family: "Firstdog";
   margin-top: 0.2vh;
+}
+
+.one_text {
+  grid-column: 1 / 3;
+  position: relative;
+}
+
+.one_text2 {
+  grid-column: 1 / 2;
+  position: relative;
+}
+
+.logofirst {
+  grid-column: 2 / 3;
+  position: relative;
+  overflow: hidden;
+  width: 80%;
+  margin-right: 0vh;
+  margin-left: auto;
 }
 
 /* _______________ */
@@ -186,7 +234,7 @@ a:hover {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 130vh;
+  height: 110vh;
 }
 
 .left_right_logo {
@@ -209,14 +257,6 @@ a:hover {
   max-width: 100%;
 }
 
-.all_logo {
-  grid-column: 1 / 4;
-  position: relative;
-  max-height: 100%;
-  max-width: 100%;
-  margin-top: 4vh;
-}
-
 /* _______________ */
 
 .five {
@@ -234,7 +274,42 @@ a:hover {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 100vh;
+  height: 230vh;
+}
+
+.ispolzovanie_logo {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.bad_ispolzovanie_logo {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.all_logo {
+  grid-column: 1 / 3;
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+  margin-top: 4vh;
+}
+
+.logofirst_ispolzovanie {
+  grid-column: 3 / 4;
+  position: relative;
+  overflow: hidden;
+  width: 25%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 3.8vh;
+  margin-bottom: auto;
+}
+
+.bad_ispolzovanie_logo {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
 }
 
 /* _______________ */
@@ -737,7 +812,7 @@ z-index: 1;
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 430vh;
+  height: 550vh;
 }
 
 .inst {
@@ -762,6 +837,12 @@ z-index: 1;
   display: grid;
   margin-top: 3vh;
   grid-template-columns: 30% 3% 15% 3% 30% 3% 15%;
+}
+
+.nositeli5 {
+  display: grid;
+  margin-top: 3vh;
+  grid-template-columns: 85% 15%;
 }
 
 .inst1,
@@ -847,6 +928,21 @@ z-index: 1;
   grid-column: 7 / 8;
 }
 
+
+.story1 {
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.qr5 {
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+
+  margin-top: auto;
+}
+
 /* _______________ */
 
 .fourty {
@@ -854,7 +950,7 @@ z-index: 1;
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 280vh;
+  height: 260vh;
 }
 
 .photo_rabota {
@@ -884,25 +980,145 @@ z-index: 1;
 }
 
 
-/* = */
+@media (max-width: 1200px) {
 
-@font-face {
-  font-family: "ArialBold";
-  src: url("../fonts/ArialBold.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
+  .one_text {
+    font-size: 10vh;
+  }
+
+  .one_text2 {
+    font-size: 3vh;
+  }
+
 }
 
-@font-face {
-  font-family: "ArialRegular";
-  src: url("../fonts/ArialRegular.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
+
+
+@media (max-width: 900px) {
+
+  .all {
+    grid-template-columns: 5% 90% 5%;
+  }
+
+  .menu_grid {
+    display: none;
+  }
+
+  .one {
+    grid-column: 2 / 3;
+    height: 100vh;
+  }
+  .two {
+    grid-column: 2 / 3;
+    height: 100vh;
+  }
+  .three {
+    grid-column: 2 / 3;
+    height: 160vh;
+  }
+  .four {
+    grid-column: 2 / 3;
+    height: 90vh;
+  }
+  .six {
+    grid-column: 2 / 3;
+    height: 170vh;
+  }
+  .seven {
+    grid-column: 2 / 3;
+    height: 270vh;
+  }
+  .eight {
+    grid-column: 2 / 3;
+    height: 130vh;
+  }
+  .nine {
+    grid-column: 2 / 3;
+    height: 100vh;
+  }
+  .ten {
+    grid-column: 2 / 3;
+    height: 100vh;
+  }
+  .eleven {
+    grid-column: 2 / 3;
+    height: 80vh;
+  }
+  .twelve {
+    grid-column: 2 / 3;
+    height: 130vh;
+  }
+  .thirty {
+    grid-column: 2 / 3;
+    height: 400vh;
+  }
+  .fourty {
+    grid-column: 2 / 3;
+    height: 210vh;
+  }
+
+.first_zagolovok {
+  font-size: 4vh;
+}
+.second_zagolovok {
+  font-size: 3vh;
+}
+.text {
+  font-size: 2vh;
 }
 
-@font-face {
-  font-family: "Firstdog";
-  src: url("../fonts/Firstdog.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
+}
+
+@media (max-width: 770px) {
+
+  .one {
+    height: 100vh;
+  }
+  .two {
+    height: 100vh;
+  }
+  .three {
+    height: 140vh;
+  }
+  .four {
+    height: 70vh;
+  }
+  .six {
+    height: 140vh;
+  }
+  .seven {
+    height: 240vh;
+  }
+  .eight {
+    height: 140vh;
+  }
+  .nine {
+    height: 100vh;
+  }
+  .ten {
+    height: 100vh;
+  }
+  .eleven {
+    height: 70vh;
+  }
+  .twelve {
+    height: 110vh;
+  }
+  .thirty {
+    height: 350vh;
+  }
+  .fourty {
+    height: 200vh;
+  }
+
+.first_zagolovok {
+  font-size: 4vh;
+}
+.second_zagolovok {
+  font-size: 3vh;
+}
+.text {
+  font-size: 2vh;
+}
+
 }
