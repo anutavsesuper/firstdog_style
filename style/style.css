@@ -26,9 +26,6 @@
 
 body, html {
   overflow-x: hidden;
-  width: 100%;
-  height: 100%;
-  position: relative;
   font-family: "ArialBold";
 }
 
@@ -1023,6 +1020,34 @@ z-index: 1;
     font-size: 3vh;
   }
 
+  .three {
+    height: 180vh;
+  }
+
+  .four {
+    height: 100vh;
+  }
+
+  .six {
+    height: 200vh;
+  }
+
+  .seven {
+    height: 300vh;
+  }
+
+  .eight {
+    height: 120vh;
+  }
+
+  .twelve {
+    height: 140vh;
+  }
+
+  .thirty {
+    height: 405vh;
+  }
+
 }
 
 
@@ -1047,7 +1072,7 @@ z-index: 1;
   }
   .three {
     grid-column: 2 / 3;
-    height: 160vh;
+    height: 170vh;
   }
   .four {
     grid-column: 2 / 3;
@@ -1055,15 +1080,15 @@ z-index: 1;
   }
   .six {
     grid-column: 2 / 3;
-    height: 170vh;
+    height: 185vh;
   }
   .seven {
     grid-column: 2 / 3;
-    height: 270vh;
+    height: 290vh;
   }
   .eight {
     grid-column: 2 / 3;
-    height: 130vh;
+    height: 110vh;
   }
   .nine {
     grid-column: 2 / 3;
@@ -1079,7 +1104,7 @@ z-index: 1;
   }
   .twelve {
     grid-column: 2 / 3;
-    height: 130vh;
+    height: 140vh;
   }
   .thirty {
     grid-column: 2 / 3;
@@ -1087,26 +1112,31 @@ z-index: 1;
   }
   .fourty {
     grid-column: 2 / 3;
-    height: 210vh;
+    height: 230vh;
   }
 
-.first_zagolovok {
-  font-size: 4vh;
-}
-.second_zagolovok {
-  font-size: 3vh;
-}
-.text {
-  font-size: 2vh;
-}
+  .first_zagolovok {
+    font-size: 4vh;
+  }
+  .second_zagolovok {
+    font-size: 3vh;
+  }
+  .text {
+    font-size: 2vh;
+  }
 
-.text_firstdog {
-  font-size: 3vh;
-}
+  .text_firstdog {
+    font-size: 3vh;
+  }
 
 }
 
 @media (max-width: 770px) {
+
+  .e2 {
+    font-family: "Firstdog";
+    margin-top: 0.7vh;
+  }
 
   .one {
     height: 100vh;
@@ -1115,19 +1145,19 @@ z-index: 1;
     height: 100vh;
   }
   .three {
-    height: 140vh;
+    height: 155vh;
   }
   .four {
-    height: 70vh;
+    height: 80vh;
   }
   .six {
-    height: 140vh;
+    height: 165vh;
   }
   .seven {
-    height: 240vh;
+    height: 265vh;
   }
   .eight {
-    height: 140vh;
+    height: 105vh;
   }
   .nine {
     height: 100vh;
@@ -1139,7 +1169,7 @@ z-index: 1;
     height: 70vh;
   }
   .twelve {
-    height: 110vh;
+    height: 125vh;
   }
   .thirty {
     height: 350vh;
@@ -1148,14 +1178,133 @@ z-index: 1;
     height: 200vh;
   }
 
-.first_zagolovok {
-  font-size: 4vh;
+  .first_zagolovok {
+    font-size: 4vh;
+  }
+  .second_zagolovok {
+    font-size: 3vh;
+  }
+  .text {
+    font-size: 2vh;
+  }
+
 }
-.second_zagolovok {
-  font-size: 3vh;
+
+@media (max-width: 500px) {
+
+  .one_text {
+    font-size: 7vh;
+  }
+
+  .e2 {
+    margin-top: 0.6vh;
+  }
+
+  .three {
+    height: 120vh;
+  }
+
+  .six {
+    height: 130vh;
+  }
+
+  .seven {
+    height: 205vh;
+  }
+
+  .eight {
+    height: 95vh;
+  }
+
+  .twelve {
+    height: 100vh;
+  }
+
+  .thirty {
+    height: 255vh;
+  }
+
+  .fourty {
+    height: 185vh;
+  }
+
+
+  .one_text_gamma, .two_text_gamma, .three_text_gamma, .four_text_gamma, .five_text_gamma, .six_text_gamma {
+    font-size: 1.5vh;
 }
-.text {
-  font-size: 2vh;
+
+
 }
+
+@media (max-width: 320px) {
+
+  .one_text {
+    font-size: 5vh;
+  }
+
+  .e2 {
+    margin-top: 0.4vh;
+  }
+
+  .one_text2 {
+    font-size: 2vh;
+}
+
+.one {
+    height: 50vh;
+}
+
+.two {
+    height: 90vh;
+}
+
+.three {
+    height: 100vh;
+}
+
+.four {
+    height: 50vh;
+}
+
+.six {
+    height: 110vh;
+}
+
+.seven {
+    height: 170vh;
+}
+
+.text_firstdog {
+    font-size: 1.5vh;
+}
+
+.eight {
+    height: 100vh;
+}
+
+.ten {
+    height: 105vh;
+}
+
+.eleven {
+    height: 60vh;
+}
+
+.twelve {
+    height: 85vh;
+}
+
+.thirty {
+    height: 195vh;
+}
+
+.fourty {
+    height: 165vh;
+}
+
+.one_text_gamma, .two_text_gamma, .three_text_gamma, .four_text_gamma, .five_text_gamma, .six_text_gamma {
+  font-size: 1vh;
+}
+
 
 }
